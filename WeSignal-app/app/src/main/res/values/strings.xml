@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeSign</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="wesignal">WeSign</string>
+    <string name="sign_to_text">Sign to Text</string>
+    <string name="text_to_sign">Text to Sign</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="translate">Translate</string>
+    <string name="from_sign_to_text">From Sign to Text</string>
+    <string name="from_text_to_sign">From Text to Sign</string>
+    <string name="use_translator">Use translator</string>
+    <string name="upload_video">Upload video</string>
+    <string name="more_options">More options</string>
+    <string name="ai_sign_language_translator">AI Sign Language Translator</string>
+    <string name="back">Back</string>
+    <string name="text_to_text">Text to Text</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav">
+    <fragment
+        android:id="@+id/searchVideoFragment"
+        android:name="xaviernadalreales.com.wesignal.SearchVideoFragment"
+        android:label="video_search_fragment_layout"
+        tools:layout="@layout/text_translator_layout" >
+        <action
+            android:id="@+id/action_searchVideoFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_searchVideoFragment_to_uploadVideoFragment"
+            app:destination="@id/uploadVideoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="xaviernadalreales.com.wesignal.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" >
+        <action
+            android:id="@+id/action_aboutUsFragment_to_searchVideoFragment"
+            app:destination="@id/searchVideoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadVideoFragment"
+        android:name="xaviernadalreales.com.wesignal.UploadVideoFragment"
+        android:label="fragment_upload_video"
+        tools:layout="@layout/fragment_upload_video" >
+        <action
+            android:id="@+id/action_uploadVideoFragment_to_searchVideoFragment"
+            app:destination="@id/searchVideoFragment" />
+    </fragment>
+</navigation>

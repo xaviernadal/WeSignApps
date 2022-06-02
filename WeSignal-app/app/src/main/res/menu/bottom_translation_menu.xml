@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/signToText"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_back_hand_24"
+        android:title="@string/sign_to_text" />
+    <item
+        android:id="@+id/TextToText"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_translate_24"
+        android:title="@string/text_to_text"
+        />
+    <item
+        android:id="@+id/TextToSign"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_text_fields_24"
+        android:title="@string/text_to_sign"
+        />
+
+</menu>
